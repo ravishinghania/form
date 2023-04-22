@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=  , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form  autocapitalize="off"novalidate>
+        <fieldset>
+            <legend align ="center">my form</legend>
+            <label>user name :
+                <input type="text" name="user name" id="ud"
+                placeholder="enter your name" required><br> <br>
+            
+            </label>
+            <label>password :
+                <input type="password"  maxlength = "10"  autofocus required>
+<br> <br>
+            </label>
+            
+            <label>age :
+                <input type="number" min="18"max="30" value= "18" required><br> <br>
+                </label>
+                <label>Email :
+                    <input type="email" required> </label>
+                    <br> <br>
+
+                    <label>
+                        favourite sports:
+                        <input list="Sports"/>
+                        <datalist id="Sports">
+                        <option label="cricket"> cricket</option>
+                        <option label="football"> football</option>
+                        <option label="tennis">tennis</option>
+                        <option label="kho-kho"> kho-kho</option>
+                        </datalist>
+
+                    </label>
+                    <label><br><br>
+                        Gender:
+                        MALE:<input checked type ="radio"name="Gender" value="MALE">
+                        FEMALE:<input type ="radio"name="Gender" value="FEMALE">
+                        OTHER:<input type ="radio"name="Gender" value="OTHER">
+                    </label><br><br>
+
+                    <label>
+                        Qualification:
+                        <select>
+                            <optgroup label="BSC">
+                                <option value="IT">IT</option>
+                                <option value="CS">CS</option>
+                                </optgroup>
+                                <optgroup label="Bcom">
+                                    <option value="Finance">Finance</option>
+                                    <option value="OTHER">OTHER</option>
+                                    </optgroup>
+                        </select>
+
+                    </label><br><br>
+
+                <label>range:
+                    <input type ="range">
+
+                </label><br> <br>
+                <label> date:
+                    <input type="date" required>
+                </label> <br><br>
+
+                <label> time:
+                    <input type="time" required>
+                </label> <br><br>
+                <label> date time:
+                    <input type="datetime-local" required>
+                </label> <br><br>
+                <label> upload Document:
+                    <input type="file" required>
+                </label><br><br>
+                <label> url:
+                    <input type="url" required placeholder="pls input url-link">
+                </label><br><br>
+                <label> color :
+                    <input type="color" required>
+                </label><br><br>
+                <label> Address :
+                    <textarea cols=" 30" rows="5"></textarea>
+                </label><br><br>
+                <label>
+                    city:
+                    <Select >
+                        <option value="mumbai"> mumbai</option>
+                        <option  selected> pune</option>
+                        <option value="banglore"> banglore</option>
+                    </Select>
+                </label><br><br><br>
+                
+                <input type="reset"value="reset">
+                <input type="submit"value="submit">
+                <input type="button"value="register">
+                <button type="= button">click me</button><br><br>
+                <label>
+                    cours:
+                    HTML5:<input type ="checkbox" value="HTML5">
+                    CSS:<input type ="checkbox"value="CSS">
+                    PYTHON:<input type ="checkbox"Value="PYTHON">
+                </label><br><br>
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
